@@ -1,0 +1,110 @@
+[1.855s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/abhishek/igvc_ws']
+[1.855s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/abhishek/igvc_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f8e01a810f0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f8e01bd5000>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f8e01bd5000>>)
+[1.983s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.984s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.984s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.984s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.984s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.984s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/abhishek/igvc_ws'
+[1.984s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws) by extensions ['ignore', 'ignore_ament_install']
+[1.984s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws) by extension 'ignore'
+[1.984s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws) by extension 'ignore_ament_install'
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws) by extensions ['colcon_pkg']
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws) by extension 'colcon_pkg'
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws) by extensions ['colcon_meta']
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws) by extension 'colcon_meta'
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws) by extensions ['ros']
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws) by extension 'ros'
+[2.029s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws) by extensions ['cmake', 'python']
+[2.029s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws) by extension 'cmake'
+[2.029s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws) by extension 'python'
+[2.029s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws) by extensions ['python_setup_py']
+[2.030s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws) by extension 'python_setup_py'
+[2.030s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[2.030s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/build) by extension 'ignore'
+[2.030s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/build) ignored
+[2.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[2.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/install) by extension 'ignore'
+[2.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/install) ignored
+[2.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[2.032s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/log) by extension 'ignore'
+[2.032s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/log) ignored
+[2.032s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[2.032s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src) by extension 'ignore'
+[2.032s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src) by extension 'ignore_ament_install'
+[2.032s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src) by extensions ['colcon_pkg']
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src) by extension 'colcon_pkg'
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src) by extensions ['colcon_meta']
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src) by extension 'colcon_meta'
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src) by extensions ['ros']
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src) by extension 'ros'
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src) by extensions ['cmake', 'python']
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src) by extension 'cmake'
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src) by extension 'python'
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src) by extensions ['python_setup_py']
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src) by extension 'python_setup_py'
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/diffdrive_arduino) by extensions ['ignore', 'ignore_ament_install']
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/diffdrive_arduino) by extension 'ignore'
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/diffdrive_arduino) by extension 'ignore_ament_install'
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/diffdrive_arduino) by extensions ['colcon_pkg']
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/diffdrive_arduino) by extension 'colcon_pkg'
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/diffdrive_arduino) by extensions ['colcon_meta']
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/diffdrive_arduino) by extension 'colcon_meta'
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/diffdrive_arduino) by extensions ['ros']
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/diffdrive_arduino) by extension 'ros'
+[2.050s] DEBUG:colcon.colcon_core.package_identification:Package '/home/abhishek/igvc_ws/src/diffdrive_arduino' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[2.050s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/igvcbot) by extensions ['ignore', 'ignore_ament_install']
+[2.050s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/igvcbot) by extension 'ignore'
+[2.050s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/igvcbot) by extension 'ignore_ament_install'
+[2.051s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/igvcbot) by extensions ['colcon_pkg']
+[2.051s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/igvcbot) by extension 'colcon_pkg'
+[2.051s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/igvcbot) by extensions ['colcon_meta']
+[2.051s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/igvcbot) by extension 'colcon_meta'
+[2.051s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/igvcbot) by extensions ['ros']
+[2.051s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/igvcbot) by extension 'ros'
+[2.052s] DEBUG:colcon.colcon_core.package_identification:Package '/home/abhishek/igvc_ws/src/igvcbot' with type 'ros.ament_python' and name 'igvcbot'
+[2.052s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial) by extensions ['ignore', 'ignore_ament_install']
+[2.052s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial) by extension 'ignore'
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial) by extension 'ignore_ament_install'
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial) by extensions ['colcon_pkg']
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial) by extension 'colcon_pkg'
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial) by extensions ['colcon_meta']
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial) by extension 'colcon_meta'
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial) by extensions ['ros']
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial) by extension 'ros'
+[2.054s] DEBUG:colcon.colcon_core.package_identification:Package '/home/abhishek/igvc_ws/src/serial' with type 'ros.ament_cmake' and name 'serial'
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial_motor_demo) by extension 'ignore'
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial_motor_demo) by extension 'ignore_ament_install'
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial_motor_demo) by extensions ['colcon_pkg']
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial_motor_demo) by extension 'colcon_pkg'
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial_motor_demo) by extensions ['colcon_meta']
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial_motor_demo) by extension 'colcon_meta'
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial_motor_demo) by extensions ['ros']
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial_motor_demo) by extension 'ros'
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial_motor_demo) by extensions ['cmake', 'python']
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial_motor_demo) by extension 'cmake'
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial_motor_demo) by extension 'python'
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial_motor_demo) by extensions ['python_setup_py']
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial_motor_demo) by extension 'python_setup_py'
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial_motor_demo/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial_motor_demo/serial_motor_demo) by extension 'ignore'
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial_motor_demo/serial_motor_demo) by extension 'ignore_ament_install'
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_pkg']
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial_motor_demo/serial_motor_demo) by extension 'colcon_pkg'
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_meta']
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial_motor_demo/serial_motor_demo) by extension 'colcon_meta'
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial_motor_demo/serial_motor_demo) by extensions ['ros']
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial_motor_demo/serial_motor_demo) by extension 'ros'
+[2.059s] DEBUG:colcon.colcon_core.package_identification:Package '/home/abhishek/igvc_ws/src/serial_motor_demo/serial_motor_demo' with type 'ros.ament_python' and name 'serial_motor_demo'
+[2.060s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.060s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore'
+[2.060s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore_ament_install'
+[2.060s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_pkg']
+[2.060s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_pkg'
+[2.060s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_meta']
+[2.060s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_meta'
+[2.060s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ros']
+[2.060s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abhishek/igvc_ws/src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ros'
+[2.061s] DEBUG:colcon.colcon_core.package_identification:Package '/home/abhishek/igvc_ws/src/serial_motor_demo/serial_motor_demo_msgs' with type 'ros.ament_cmake' and name 'serial_motor_demo_msgs'
+[2.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
